@@ -4,8 +4,9 @@ bads.tm (bads-tm.github.io medium.com/bads-tm)
 (C) 2018. Made in Vilnius, Lithuania.
 
 TITLE: Vidme Skin/Theme for You[TUBE]
-Version 2
+Version 3
 */
+
 
 #yt-masthead-container {
     background: #000000c6 !important; /* #older #00000070 */
@@ -274,9 +275,9 @@ input, button, select, textarea {
     visibility: hidden;
     content: none;
 }
-.copyright:after {
+.copyright:before {
         margin-top: 10px;
-    color: #bbb;
+    color: #000;
     font-size: 15px;
          content: " © 2018 Vidme, theme © 2018 bads.tm ";  
 }
@@ -290,11 +291,11 @@ input, button, select, textarea {
 background-repeat: no-repeat;
 }
 
-/* experimental */
+/* experimental 
 
 body {
     background: #00000000;
-    background-image: url(/cdn/images/homepage/splash1.jpg);
+    background-image: url(https://raw.githubusercontent.com/bads-tm/css-themes/master/vidme-for-youtube/back1.jpg);
 }
 canvas, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, embed, fieldset, font, form {
     margin: 0;
@@ -302,11 +303,17 @@ canvas, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, embed, field
     border: 0;
     font-size: 100%;
     background: #00000000;
-    background-image: url(/cdn/images/homepage/splash1.jpg);
+    background-image: url(https://raw.githubusercontent.com/bads-tm/css-themes/master/vidme-for-youtube/back1.jpg);
 }
+*/
 
 /* subscribe button to be round... */
 .yt-uix-button-subscription-container ,.yt-uix-button-subscribe-branded ,.yt-uix-subscription-button{
+     color: #f82a53;
+    border: 1px solid #00000000;
+    background: transparent;   
+}
+.yt-uix-subscription-button{
      color: #f82a53;
     border: 1px solid rgba(248, 42, 83, 0.3);
     background: transparent;   
@@ -339,3 +346,20 @@ canvas, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, embed, field
     width: 0px;
     height: 0px;
 }
+.exp-invert-logo .resume-playback-progress-bar, .exp-invert-logo .yt-uix-button-subscribe-branded, .exp-invert-logo .yt-uix-button-subscribe-branded[disabled], .exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:hover, .exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:active, .exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:focus, .exp-invert-logo .sb-notif-on .yt-uix-button-content, .exp-invert-logo .guide-item.guide-item-selected, .exp-invert-logo .guide-item.guide-item-selected:hover, .exp-invert-logo .guide-item.guide-item-selected .yt-deemphasized-text, .exp-invert-logo .guide-item.guide-item-selected:hover .yt-deemphasized-text {
+    background-color: transparent;
+}
+
+/* uncategorized / icons */
+/* Uncomment and see nothing.. WHY THIS DOESN'T WORK???
+.yt-uix-button-icon-bell {
+    left: 0;
+    position: absolute;
+    top: -2px;
+    background: no-repeat url(//www.iconsplace.com/download/white-bell-256.png) !important;
+    background-size: auto;
+    width: 30px;
+    height: 30px;
+}
+*/
+
