@@ -49,14 +49,14 @@ Version 2
 }
 /* verified */
 .yt-channel-title-icon-verified {
-    background: no-repeat url(https://raw.githubusercontent.com/bads-tm/css-themes/master/vidme-for-youtube/verified.svg);
+    background: no-repeat url(//raw.githubusercontent.com/bads-tm/css-themes/master/vidme-for-youtube/verified.svg);
     background-size: 14px;
     width: 15px;
     height: 15px;
     margin-left: 5px;
 }
 .yt-channel-title-icon-verified:hover {
-    background: no-repeat url(https://raw.githubusercontent.com/bads-tm/css-themes/master/vidme-for-youtube/verified.svg);
+    background: no-repeat url(//raw.githubusercontent.com/bads-tm/css-themes/master/vidme-for-youtube/verified.svg);
     background-size: 14px;
     width: 15px;
     height: 15px;
