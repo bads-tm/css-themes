@@ -1,0 +1,72 @@
+/* 
+made by, and original creator:
+bads.tm (bads-tm.github.io medium.com/bads-tm)
+(C) 2018. Made in Vilnius, Lithuania.
+
+TITLE: Vidme Skin/Theme for You[TUBE] Leanback (aka Smart TV app mode)
+Version 1
+*/
+
+.icon-youtube-logo:before {
+    background: no-repeat url(https://raw.githubusercontent.com/bads-tm/css-themes/master/vidme-for-youtube/vidme-big.png) !important;
+    background-size: 90% auto !important;
+    content: "\200d";
+}
+
+.topic-tile.selected {
+    background-color: #f82a53;
+    background: -webkit-linear-gradient(to left, #9f2af8, #f82a53);
+    background: linear-gradient(to left, #9f2af8, #f82a53);
+    color: #fff;
+    overflow: visible;
+}
+
+#guide.open .sign-in-header, #guide.open .user-info-background, #guide.open:hover .user-info-background {
+        background-color: #00000070;
+}
+.guide-button-icon {
+    color: #fff;
+    display: inline-block;
+    font-family: 'youtube-icons';
+    font-size: 1.2em;
+    margin-top: .2em;
+    text-align: center;
+    width: 1.8em;
+}
+
+.guide.open .guide-background,.guide.open:hover .guide-background,.limited-animation .guide.open .guide-list {
+        background-color: #f82a53;
+    background: -webkit-linear-gradient(to left, #9f2af8, #f82a53);
+    background: linear-gradient(to left, #9f2af8, #f82a53);
+}
+.topic-tile.selected .pointer {
+    border-left: .7em solid transparent;
+    border-right: .7em solid transparent;
+    border-top-color: #f82a53;
+    border-top-style: solid;
+    border-top-width: .8em;
+    height: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -.01em;
+    width: 0;
+}
+.progress-overlay .red {
+        background-color: #f82a53;
+    background: -webkit-linear-gradient(to left, #9f2af8, #f82a53);
+    background: linear-gradient(to left, #9f2af8, #f82a53);
+    height: inherit;
+    margin-top: -0.3em;
+    width: 0
+}
+
+.fresh-transport-controls .progress-bar .progress-bar-line .progress-bar-played {
+        background-color: #f82a53;
+    background: -webkit-linear-gradient(to left, #9f2af8, #f82a53);
+    background: linear-gradient(to left, #9f2af8, #f82a53
+}
+.progress-bar .progress-bar-line .progress-bar-played {
+        background-color: #f82a53;
+    background: -webkit-linear-gradient(to left, #9f2af8, #f82a53);
+    background: linear-gradient(to left, #9f2af8, #f82a53
+}

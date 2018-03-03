@@ -4,6 +4,7 @@ bads.tm (bads-tm.github.io medium.com/bads-tm)
 (C) 2018. Made in Vilnius, Lithuania.
 
 TITLE: Vidme Skin/Theme for You[TUBE]
+Version 2
 */
 
 #yt-masthead-container {
@@ -11,7 +12,7 @@ TITLE: Vidme Skin/Theme for You[TUBE]
 }
 
 .masthead-logo-renderer-logo {
-    background: no-repeat url(https://raw.githubusercontent.com/bads-tm/css-themes/master/vidme-big.png) !important;
+    background: no-repeat url(https://raw.githubusercontent.com/bads-tm/css-themes/master/vidme-for-youtube/vidme-big.png) !important;
     background-size: 130px auto !important;
         padding-top: 2px !important;
         padding-left: 30px !important;
@@ -48,14 +49,14 @@ TITLE: Vidme Skin/Theme for You[TUBE]
 }
 /* verified */
 .yt-channel-title-icon-verified {
-    background: no-repeat url(https://raw.githubusercontent.com/bads-tm/css-themes/master/verified.svg);
+    background: no-repeat url(https://raw.githubusercontent.com/bads-tm/css-themes/master/vidme-for-youtube/verified.svg);
     background-size: 14px;
     width: 15px;
     height: 15px;
     margin-left: 5px;
 }
 .yt-channel-title-icon-verified:hover {
-    background: no-repeat url(https://raw.githubusercontent.com/bads-tm/css-themes/master/verified.svg);
+    background: no-repeat url(https://raw.githubusercontent.com/bads-tm/css-themes/master/vidme-for-youtube/verified.svg);
     background-size: 14px;
     width: 15px;
     height: 15px;
@@ -200,7 +201,7 @@ input, button, select, textarea {
 }
 
 .exp-invert-logo #footer-logo .footer-logo-icon{
-    background: no-repeat url(https://raw.githubusercontent.com/bads-tm/css-themes/master/vidme-logo-big.png);
+    background: no-repeat url(https://raw.githubusercontent.com/bads-tm/css-themes/master/vidme-for-youtube/vidme-logo-big.png);
         padding-right: 23px !important;
     background-size: auto 30px
 }

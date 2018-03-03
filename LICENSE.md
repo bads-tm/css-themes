@@ -1,3 +1,4 @@
 * keep bads.tm as original creator in source code
 * you can modify and etc, just keep my name
-* same license
+* you can help and improve it!
+* same license.
