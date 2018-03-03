@@ -1,0 +1,340 @@
+/* 
+made by, and original creator:
+bads.tm (bads-tm.github.io medium.com/bads-tm)
+(C) 2018. Made in Vilnius, Lithuania.
+
+TITLE: Vidme Skin/Theme for You[TUBE]
+*/
+
+#yt-masthead-container {
+    background: #000000c6 !important; /* #older #00000070 */
+}
+
+.masthead-logo-renderer-logo {
+    background: no-repeat url(https://raw.githubusercontent.com/bads-tm/css-themes/master/vidme-big.png) !important;
+    background-size: 130px auto !important;
+        padding-top: 2px !important;
+        padding-left: 30px !important;
+}
+
+/* no "terrible" link bar thing color */
+.channel-header .about-secondary-links, .channel-header .about-custom-links {
+    float: right;
+    padding: 10px;
+    background-color: #0000000d;
+}
+
+/* better hamburger thing */
+
+.yt-uix-button-icon-appbar-guide
+  {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAA/CAYAAABXXxDfAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIpJREFUeNrs2IEJgDAMBMBW3Evc1FEySjepukb+HjrAQULDz733SM0xggMPDw8Pn5DzexVqf378FYovOw8PDw8PD9/7wrtD7WuqseDh4eHh+//zFWrX5Nh5eHh4eHj4vheeJsfYw8PDw8P3/ecr1K7JsfPw8PDw8PB9LzxNjrGHh4eHh4dvl1eAAQDlGhcBSKx58QAAAABJRU5ErkJggg==) 0 0 !important;
+    background-size: 15px 15px !important;
+  }
+
+/* channel categories which is hideable*/
+#masthead-appbar{
+    background-color: #00000070;
+}
+#appbar-nav .yt-uix-button.yt-uix-button-epic-nav-item{
+    color: #fff;
+}
+#appbar-nav .epic-nav-item-heading{
+    color: #fff;
+    font-weight: 500;
+}
+.exp-invert-logo .epic-nav-item-heading{
+    border-color: #f82a53;
+}
+/* verified */
+.yt-channel-title-icon-verified {
+    background: no-repeat url(https://raw.githubusercontent.com/bads-tm/css-themes/master/verified.svg);
+    background-size: 14px;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+.yt-channel-title-icon-verified:hover {
+    background: no-repeat url(https://raw.githubusercontent.com/bads-tm/css-themes/master/verified.svg);
+    background-size: 14px;
+    width: 15px;
+    height: 15px;
+}
+.qualified-channel-title-badge {
+    margin-left: 0px;
+}
+/* upload */
+#upload-btn{
+    opacity: 100;
+    float: left;
+    display: inline-block;
+/*    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfl6oUAlA.webp) -327px -221px; */
+    background-color: #f82a53;
+    background: -webkit-linear-gradient(to left, #9f2af8, #f82a53);
+    background: linear-gradient(to left, #9f2af8, #f82a53);
+    color: #fff;
+    border-radius: 4px;
+    padding: 6px 1.75em 6px;
+    margin-top: 1px;
+    border-radius: 50px;
+    -webkit-user-select: none;
+    -moz-user-select: none;    
+}
+
+#upload-btn:after{
+    content: "UPLOAD";
+        color: #fff;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin-top: 2px;
+	}
+
+.yt-uix-button-icon-material-upload {
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfl6oUAlA.webp) -327px -221px;
+    background-size: auto;
+    width: 0;
+    height: 0;
+}
+.yt-uix-button-icon-material-upload:before{
+     content: "UPLOAD";   
+}
+
+/* SEARCH */
+
+.search-form{
+    width: 300px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding-left: 22px;
+    background-color: transparent;
+}
+
+#masthead-search-terms {
+    background-color: #0000;
+    font-size: 14px;
+    height: 29px;
+    line-height: 0;
+    margin: 0 0 2px;
+    overflow: hidden;
+    position: relative;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-transition: border-color .2s ease;
+    -webkit-transition: border-color .2s ease;
+    transition: border-color .2s ease;
+    border-radius: 2px;
+    
+}
+.masthead-search-terms-border {
+    border: 1px solid #ffffff4d;
+    box-shadow: inset 0 1px 2px #ff000000;
+}
+
+#search-btn{
+    border-color: #ffffff4d;
+    background: #00000000;
+    color: #fff;
+    width: 26px;
+    border-radius: 10px;
+    /*border: none; *//*if you want*/
+}
+#yt-masthead .search-btn-component .yt-uix-button-content {
+    margin: 0 5px;
+}
+
+input[type=text], input[type=text]:focus, input[type=text]:active, .btn, .btn:focus, .btn:active, .btn.active {
+    outline: none;
+    box-shadow: none;
+}
+
+input[type=text] {
+    color: #fff;
+    -moz-appearance: caret;
+}
+
+input, button, select, textarea {
+    outline: none;
+}
+
+/* uncategorized */
+
+#masthead-appbar {
+    border-bottom: 1px solid #00000000;
+    height: 40px;
+    line-height: 40px;
+}
+
+#appbar-guide-menu, .guide-flyout {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #00000099;
+    color: #fff;
+}
+
+.guide-item {
+    color: #fff;
+}
+.guide-item .guide-count {
+    color: #fff;
+    font-size: 11px;
+}
+.guide-view-more {
+    color: #fff;
+    padding-left: 35px;
+    text-align: left;
+}
+.exp-invert-logo li.guide-section h3 a {
+    color: #f82a53;
+}
+
+.ytp-swatch-background-color {
+    background-color: #f82a53;
+    background: -webkit-linear-gradient(to left, #9f2af8, #f82a53);
+    background: linear-gradient(to left, #9f2af8, #f82a53);
+}
+
+.exp-invert-logo #footer-logo .footer-logo-icon{
+    background: no-repeat url(https://raw.githubusercontent.com/bads-tm/css-themes/master/vidme-logo-big.png);
+        padding-right: 23px !important;
+    background-size: auto 30px
+}
+
+#footer-container{
+    background-color: #fff;
+    border-top: 1px solid #e8e8e8;
+    min-height: 100px;
+    padding: 50px 0;
+    transition: padding .2s ease-in-out;
+}
+#footer-links{
+    display: table-cell;
+}
+#footer-links-primary{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 70px;
+        margin-top: 10px;
+    color: #bbb;
+    font-size: .85em;
+}
+
+.yt-uix-button-default, .yt-uix-button-default[disabled], .yt-uix-button-default[disabled]:hover, .yt-uix-button-default[disabled]:active, .yt-uix-button-default[disabled]:focus {
+    border-color: #d3d3d3;
+    background: #00000000;
+    color: #333;
+}
+
+#masthead-search .search-btn-component .yt-uix-button-content {
+    border: none;
+    display: block;
+    opacity: .6;
+    padding: 0;
+    text-indent: -10000px;
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfl6oUAlA.webp) 0 -366px;
+    background-size: auto;
+    width: 15px;
+    height: 15px;
+    box-shadow: none;
+}
+.yt-uix-button-default:hover, .yt-uix-button-text:hover {
+    border-color: #fff;
+    background: #00000000;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.10);
+}
+
+/* borderless */
+
+.guide-pinned .guide-pinning-enabled #appbar-guide-menu {
+    border-right: 0px solid #00000000;
+    box-shadow: none;
+}
+
+#yt-masthead-container {
+    background: #fff;
+    border-bottom: 0px solid #00000000;
+    min-width: 0;
+    padding-bottom: 8px;
+    padding-top: 7px;
+    position: relative;
+}
+
+/* copyright */
+
+.copyright span {
+    color: #fff;
+    font-size: 0%;
+    display: none;
+    visibility: hidden;
+    content: none;
+}
+.copyright:after {
+        margin-top: 10px;
+    color: #bbb;
+    font-size: 15px;
+         content: " © 2018 Vidme, theme © 2018 bads.tm ";  
+}
+
+/* uncategorized / pages */
+#start-upload-button-single .init-upload-action-icon {
+    width: 118px;
+    height: 80px;
+    background-position: center center;
+    background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20aria-hidden%3D%22true%22%20data-prefix%3D%22far%22%20data-icon%3D%22file-video%22%20role%3D%22img%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20384%20512%22%20class%3D%22svg-inline--fa%20fa-file-video%20fa-w-12%22%20style%3D%22font-size%3A%2048px%3B%22%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M369.941%2097.941l-83.882-83.882A48%2048%200%200%200%20252.118%200H48C21.49%200%200%2021.49%200%2048v416c0%2026.51%2021.49%2048%2048%2048h288c26.51%200%2048-21.49%2048-48V131.882a48%2048%200%200%200-14.059-33.941zM332.118%20128H256V51.882L332.118%20128zM48%20464V48h160v104c0%2013.255%2010.745%2024%2024%2024h104v288H48zm228.687-211.303L224%20305.374V268c0-11.046-8.954-20-20-20H100c-11.046%200-20%208.954-20%2020v104c0%2011.046%208.954%2020%2020%2020h104c11.046%200%2020-8.954%2020-20v-37.374l52.687%2052.674C286.704%20397.318%20304%20390.28%20304%20375.986V264.011c0-14.311-17.309-21.319-27.313-11.314z%22%20class%3D%22%22%3E%3C/path%3E%3C/svg%3E);
+background-repeat: no-repeat;
+}
+
+/* experimental */
+
+body {
+    background: #00000000;
+    background-image: url(/cdn/images/homepage/splash1.jpg);
+}
+canvas, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, embed, fieldset, font, form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    background: #00000000;
+    background-image: url(/cdn/images/homepage/splash1.jpg);
+}
+
+/* subscribe button to be round... */
+.yt-uix-button-subscription-container ,.yt-uix-button-subscribe-branded ,.yt-uix-subscription-button{
+     color: #f82a53;
+    border: 1px solid rgba(248, 42, 83, 0.3);
+    background: transparent;   
+}
+.exp-invert-logo .resume-playback-progress-bar, .exp-invert-logo .yt-uix-button-subscribe-branded, .yt-uix-button-subscribe-branded[disabled], .exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:hover, .exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:active {
+        display: inline-block;
+    background-color: #00000000;
+        color: #f82a53;
+}
+
+.yt-uix-button-subscription-container, .yt-uix-button-subscribe-branded, .yt-uix-subscription-button {
+    border-radius: 20px;
+    margin-right: 2px;
+}
+.yt-subscription-button-subscriber-count-branded-horizontal, .yt-subscription-button-subscriber-count-unbranded-horizontal {
+    display: none;
+    border-radius: 50px;
+    margin-left: 1px;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    vertical-align: middle;
+}
+.yt-uix-subscription-preferences-button{
+    margin-left: 1px;
+ border-radius: 50px;   
+}
+.yt-uix-button-subscribe-branded:before {
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfl6oUAlA.webp) -102px -341px;
+    background-size: auto;
+    width: 0px;
+    height: 0px;
+}
