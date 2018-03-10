@@ -4,7 +4,7 @@ bads.tm (bads-tm.github.io medium.com/bads-tm)
 (C) 2018. Made in Vilnius, Lithuania.
 
 TITLE: Vidme Skin/Theme for You[TUBE]
-Version 3
+Version 4
 */
 
 
@@ -363,3 +363,16 @@ canvas, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, embed, field
 }
 */
 
+ /* 2018 03 10 only text in sub thing */
+.yt-uix-button-subscribed-branded:before {
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfl6oUAlA.webp) 0px 0px;
+    background-size: auto;
+    width: 0px;
+    height: 0px;
+}
+.yt-uix-button-subscribed-branded.hover-enabled:hover:before {
+    background: no-repeat url(//s.ytimg.com/yts/imgbin/www-hitchhiker-vfl6oUAlA.webp) 0px 0px;
+    background-size: auto;
+    width: 0px;
+    height: 0px;
+}
