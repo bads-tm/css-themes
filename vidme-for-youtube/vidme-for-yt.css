@@ -4,7 +4,8 @@ bads.tm (bads-tm.github.io medium.com/bads-tm)
 (C) 2018. Made in Vilnius, Lithuania.
 
 TITLE: Vidme Skin/Theme for You[TUBE]
-Version 4
+(old layout and stuff, not material new one)
+Version 5
 */
 
 
@@ -376,3 +377,31 @@ canvas, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, embed, field
     width: 0px;
     height: 0px;
 }
+
+/* 2018 03 11 sub button, no red thing */
+/* I might not be able to continue developement on this due to YouTube forcing into new, and not having option to go back to old one, which currently this is for */
+.exp-invert-logo .resume-playback-progress-bar, .exp-invert-logo .yt-uix-button-subscribe-branded, .exp-invert-logo .yt-uix-button-subscribe-branded[disabled], .exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:hover, .exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:active, .exp-invert-logo .yt-uix-button-subscribe-branded[disabled]:focus, .exp-invert-logo .sb-notif-on .yt-uix-button-content, .exp-invert-logo .guide-item.guide-item-selected, .exp-invert-logo .guide-item.guide-item-selected:hover, .exp-invert-logo .guide-item.guide-item-selected .yt-deemphasized-text, .exp-invert-logo .guide-item.guide-item-selected:hover .yt-deemphasized-text {
+    background-color: #0000;
+}
+
+.exp-invert-logo .yt-uix-button-subscribe-branded.yt-is-buffered, .exp-invert-logo .yt-uix-button-subscribe-branded:active, .exp-invert-logo .yt-uix-button-subscribe-branded.yt-uix-button-toggled, .exp-invert-logo .yt-uix-button-subscribe-branded.yt-uix-button-active, .exp-invert-logo .yt-uix-button-subscribed-branded.external, .exp-invert-logo .yt-uix-button-subscribed-branded.external[disabled], .exp-invert-logo .yt-uix-button-subscribed-branded.external:active, .exp-invert-logo .yt-uix-button-subscribed-branded.external.yt-uix-button-toggled, .exp-invert-logo .yt-uix-button-subscribed-branded.external.yt-uix-button-active {
+    background-color: #0000;
+}
+/* no region text */
+#yt-masthead #logo-container span.content-region {
+    color: #0000;
+    font-size: 0px;
+    font-weight: normal;
+    position: absolute;
+    text-decoration: none;
+}
+/* white bell */
+/*.yt-uix-button-icon-bell {
+    left: 0;
+    position: absolute;
+    top: -2px;
+    background: url(data:image/svg+xml,%3Csvg%20viewBox%3D%220%200%2032%2036%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M28.6964029%2C21.2431655%20L28.6964029%2C15.7985612%20C28.6964029%2C10.371223%2025.4848921%2C5.70359712%2020.6733813%2C3.82158273%20C20.1899281%2C1.64604317%2018.2791367%2C0.0230215827%2016%2C0.0230215827%20C13.7208633%2C0.0230215827%2011.8100719%2C1.65179856%2011.3266187%2C3.82158273%20C6.51510791%2C5.70359712%203.30359712%2C10.371223%203.30359712%2C15.7985612%20L3.30359712%2C21.2431655%20L0.443165468%2C24.1784173%20C0.189928058%2C24.4374101%200.0460431655%2C24.7884892%200.0460431655%2C25.1510791%20L0.0460431655%2C29.3007194%20C0.0460431655%2C30.0489209%200.650359712%2C30.647482%201.39280576%2C30.647482%20L10.3942446%2C30.647482%20C10.4%2C33.628777%2013.018705%2C36.2417266%2016%2C36.2417266%20C18.981295%2C36.2417266%2021.6%2C33.628777%2021.6057554%2C30.647482%20L30.6071942%2C30.647482%20C31.3553957%2C30.647482%2031.9539568%2C30.0431655%2031.9539568%2C29.3007194%20L31.9539568%2C25.1510791%20C31.9539568%2C24.7884892%2031.8100719%2C24.4374101%2031.5568345%2C24.1784173%20L28.6964029%2C21.2431655%20Z%20M16%2C33.542446%20C14.4057554%2C33.542446%2013.0992806%2C32.0402878%2013.0935252%2C30.647482%20L18.9064748%2C30.647482%20C18.9007194%2C32.0402878%2017.5942446%2C33.542446%2016%2C33.542446%20Z%20M29.2546763%2C27.9482014%20L2.74532374%2C27.9482014%20L2.74532374%2C25.6805755%20L6.0028777%2C22.3366906%20L6.0028777%2C15.7928058%20C6.0028777%2C10.8719424%209.26043165%2C6.83165468%2013.9107914%2C5.84748201%20L13.9107914%2C4.89208633%20C13.9107914%2C3.7294964%2014.8431655%2C2.71079137%2016.0057554%2C2.71079137%20C17.1683453%2C2.71079137%2018.1007194%2C3.7294964%2018.1007194%2C4.89208633%20L18.1007194%2C5.84748201%20C22.7510791%2C6.83165468%2026.0086331%2C10.8719424%2026.0086331%2C15.7928058%20L26.0086331%2C22.3366906%20L29.2661871%2C25.6805755%20L29.2546763%2C27.9482014%20L29.2546763%2C27.9482014%20Z%22%20id%3D%22Shape%22%3E%3C/path%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/svg%3E) -147px -612px;
+    background-size: auto;
+    width: 30px;
+    height: 30px;
+} */
